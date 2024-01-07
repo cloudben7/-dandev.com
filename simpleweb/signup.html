@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+
+        }
+        body{
+          background-image: url(img_lights.jpg);
+          background-position: center;
+          background-size: cover;
+          position: relative;
+          background-attachment: scroll;
+
+        }
+        .login-form{
+            margin-left: 650px;
+        }
+        form{
+            background-image: linear-gradient(red,black,green);
+            width: 300px;
+            height: 250px;
+            margin-top: 50px;
+            padding-top: 10px;
+            border: 3px solid rgb(77, 77, 8);
+            border-radius: 20px;
+        }
+         h1{
+            
+              text-align: center;
+              color: blue;
+              font-size: 25px;
+              font-weight: bold;
+         }
+        form label {
+            color: aliceblue;
+        }
+        form input{
+            background-color: transparent;
+            border-radius: 30px;
+            font-size: 17px;
+            color: black;
+
+        }
+       .login-form form button{
+             color: red;
+             background-color: blue;
+             border: 3px solid black;
+             border-radius: 30px;
+             margin-top: 10px;
+             margin-left: 20px;
+             font-size: 20px;
+             font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+    <form action="">
+           <h1> Signup</h1>
+        <label for="fname"> Firstname</label>
+        <input type="text" placeholder="Enter your firstname"> <br>
+        <label for="lname"> lastname</label>
+        <input type="text" placeholder="Enter your lasstname"><br>
+        <label for="email"> Email</label>
+        <input type="email"placeholder="Enter your email"> <br>
+        <label for="password"> password</label>
+        <input type="password" placeholder="Enter your password"> <br>
+        <label for="retypepassword"> Retypepassword</label>
+        <input type="password" placeholder="Retype your password"> <br>
+        <input type="checkbox" > Agree to Terms And Services
+        <button type="submit" value="Submit"> Signup </button>
+    </form>
+    </div>
+</body>
+</html>
